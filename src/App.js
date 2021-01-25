@@ -6,6 +6,7 @@ import InstructorTag from "./components/InstructorTag";
 const Instructors = data.map((instructor) => (
   <InstructorTag key={instructor.id} name={instructor.name} emoji={instructor.emoji} github={instructor.github}/>
 ));
+// {...instructor}
 
 const App = () => {
   return (
